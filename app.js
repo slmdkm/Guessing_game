@@ -55,6 +55,19 @@ else
 {   alert("This answer is wrong!");
 }
 
+var answerSeven = prompt (' What is my favorite holiday?');
+var answerSeven = ['Christmas', 'Easter', 'Cinco de Mayo', 'Mothers Day', '4th of July'];
+if (answerSeven === [0]){
+  alert ('Christmas is my favorite!  I decorate a real tree!');
+}else if (answerSeven === [1]){
+  alert ('Easter is my 2nd favorite holiday!');
+}else if (answerSeven ===[2]){
+  alert ('I\'m not much of a Cinco de Mayo fan.' );
+}else if (answerSeven === [3]){
+  alert('My husband makes a great Eggs Benedict brunch!');
+}else {
+  alert ('No such luck!' )
+}
 // if (traffic signal ==="green")&& pedestrians ===false){
 //   alert ("GO!");
 // }else{
