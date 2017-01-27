@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About Me Page</title>
+    <link href ="index.css" type="text/css" rel = "stylesheet">
+
+  </head>
+
+  <body>
+    <header>
+      <h1>Hey, I'm Samantha!</h1>
+    <header>
+
+      <h3>About Me</h3>
+      <p> I'm a seasoned, award-winning wife of 25 years, mom to four children, a world traveler, an amateur genealogist and a middle-school Mock Trial Coach!</p>
+
+      <h3>My Family</h3>
+      <ol>
+        <li>The Husband</li>
+        <p>David is a Chief Engineer on the F/T American Triumph for American Seafoods Company based out of Seattle, WA. He has been working in Alaska for the last 25 years.</p>
+        <li>The Children</li>
+        <p>My oldest daughter, Claudia, is 21, a Senior at Mount Saint Mary's Unversity in Maryland and she's engaged to be married this year.</p>
+        <p>Nick is 20, a sophomore and plays football at Amherst College in Massachusetts.</p>
+        <p>Maria is in 8th grade and will be starting high school in the fall.  She's the catcher for Fury Fastpitch Select Softball team.</p>
+        <p>John is 12, in 6th grade and he plays football, baseball and swims for the swim team.</p>
+        <li>...and the dogs, of course...the guinea pig died...</li>
+        <p> Mo who is an 8 year old Portuguese Mountain dog and Charlie, who is a 6 year old Shih Tzu.</p>
+      </ol>
+
+      <h3>Education</h3>
+      <p>I graduated from the California Maritime Academy in Vallejo, CA with a BS Degree in Business Administration.  I sat for my US Coast Guard License and became an officer in the Merchant Marines.</p>
+
+      <h3>My Travels</h3>
+        <ul>
+          <li> Japan</li>
+          <li> China</li>
+          <li> Indonesia</li>
+          <li> Singapore</li>
+          <li> Australia and New Zealand</li>
+          <li> South America: Peru, Chili, Colombia, Venezuela and Curacao</li>
+          <li> Mexico and Panama</li>
+        </ul>
+
+      <h3>Fun Facts</h3>
+        <ul>
+          <li>Favorite Foods</li>
+          <p>Sushi, Pho Noodle Soup, Eggs Benedict</p>
+          <li>Favorite Restaurants</li>
+          <p>The Met, Palisade, The Loft in Edmonds, and the Raffles Hotel in Singapore</p>
+          <li>Hobbies</li>
+          <p>Scrapbooking, Genealogy, Ping Pong and Cross Word Puzzles!</p>
+
+          <!-- <script type="text/javascript" src="app.js"></script> -->
+  </body>
+  <br>
+       <button onclick="myFunction()">Do you want to try your luck with the Guessing Game?</button>
+ <p id="demo"></p>
+ <br>
+    <script>
+
+    function myFunction(){
+      var userName = prompt("What\'s your name?");
+      alert('Hello ' + userName + '. Thanks for coming to my site!')
+
+      var questionOne = prompt ('So ' + userName +'. Are you new to CodeFellows?');
+      var myQuestionOne = 'Yes';
+      if (questionOne === myQuestionOne){
+        alert ('Congratulations!  Welcome to Code Fellows')
+      }else{
+        alert('Welcome back ' + userName + '.  It\'s great to see you again!')
+      }
+
+      var answerTwo = prompt('What state was I born in?');
+      var myAnswerTwo = 'California';
+      if(answerTwo === myAnswerTwo){
+        //Comment do something
+          alert('You got it right ' + userName + '.I was born in California!')
+      }else {
+        //do something else
+        alert('Sorry ' + userName + ', that\'s wrong. I was born in California.')
+      }
+
+      var answerThree = prompt ('I love sports!  Who do you think my favorite football team is ?');
+      var myAnswerThree = 'Seahawks';
+      if (answerThree === myAnswerThree){
+          alert ('Yes!  But don\'t tell my husband!  He thinks it\'s the Patriots!')
+      }else {
+        alert ('Nope! It\'s the Seahawks! But don\'t tell my husband!' )
+      }
+
+      var answerFour = prompt ('Where is my favorite restaurant to go to for happy hour?');
+      var myAnswerFour = 'Palisade';
+      if (answerFour === myAnswerFour){
+          alert ('Yes!They have the best Warm Crab Lobster Dip and American Kobe Beef Sliders!')
+      }else {
+          alert ('It\'s Palisade in Seattle.  They have the best Warm Crab Lobster Dip and American Kobe Beef Sliders! I recommend visiting!')
+      }
+
+    var answerFive = prompt("How fast do you drive on the I5 freeway?");
+
+
+    if (answerFive > 75) {
+        alert("Slow down! You will get a ticket!");
+    }else {
+    alert("Drive safe and have a safe trip!");
+    }
+
+    var answerSix = prompt ('How long is my name?');
+
+    if ((answerSix * 2 / (2+2) == 4))
+    {
+        alert("The answer makes sense!");
+    }
+    else
+    {   alert("This answer is wrong!");
+    }
+
+    // if (traffic signal ==="green")&& pedestrians ===false){
+    //   alert ("GO!");
+    // }else{
+    //   alert ("STOP!");
+    // }
+  }
+    </script>
+
+</html>
