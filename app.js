@@ -36,41 +36,37 @@ function myFunction(){
       alert ('It\'s Palisade in Seattle.  They have the best Warm Crab Lobster Dip and American Kobe Beef Sliders! I recommend visiting!')
   }
 
-var answerFive = prompt("How fast do you drive on the I5 freeway?");
+var answerFive = prompt("How fast do I drive on the I5 freeway?");
 
 
 if (answerFive > 75) {
-    alert("Slow down! You will get a ticket!");
+    alert("I will get a ticket!");
 }else {
-alert("Drive safe and have a safe trip!");
+alert("I will drive safe and have a safe trip!");
 }
 
 var answerSix = prompt ('How long is my name?');
 
 if ((answerSix * 2 / (2+2) == 4))
 {
-    alert("The answer makes sense!");
+    alert("You are correct!");
 }
 else
-{   alert("This answer is wrong!");
+{   alert("Nope, you got it wrong!");
 }
 
-var answerSeven = prompt (' What is my favorite holiday?');
-var answerSeven = ['Christmas', 'Easter', 'Cinco de Mayo', 'Mothers Day', '4th of July'];
-if (answerSeven === [0]){
+var answerSevenArray = prompt (' What is my favorite holiday?');
+var myArray = ['Christmas', 'Easter', 'Cinco de Mayo', 'Mothers Day', '4th of July'];
+if (answerSevenArray === myArray[0]){
   alert ('Christmas is my favorite!  I decorate a real tree!');
-}else if (answerSeven === [1]){
+}if (answerSevenArray === myArray[1]){
   alert ('Easter is my 2nd favorite holiday!');
-}else if (answerSeven ===[2]){
+}if (answerSevenArray === myArray[2]){
   alert ('I\'m not much of a Cinco de Mayo fan.' );
-}else if (answerSeven === [3]){
-  alert('My husband makes a great Eggs Benedict brunch!');
+}if (answerSevenArray === myArray[3]){
+  alert('My husband makes a great Eggs Benedict brunch for Mothers Day!');
 }else {
   alert ('No such luck!' )
 }
-// if (traffic signal ==="green")&& pedestrians ===false){
-//   alert ("GO!");
-// }else{
-//   alert ("STOP!");
-// }
+
 }
