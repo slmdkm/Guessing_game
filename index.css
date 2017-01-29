@@ -1,8 +1,8 @@
 /*
 Selector {
-  property: value;
-  property: value;
-  } */
+property: value;
+property: value;
+} */
 /* By class name*/
 .classOne{
 }
@@ -11,52 +11,52 @@ Selector {
 }
 
 html {
-    height: 100%;
-    background-color: lightblue;
-  }
-  body {
-     height: 100%;
-  }
-  h1{
-    text-align: center;
-    background-color: ;
-    font-size: 48px;
-    font-style:italic;
-    padding: ;
-    border: ;
+  height: 100%;
+  background-color: lightblue;
+}
+body {
+  height: 100%;
+}
+h1{
+  text-align: center;
+  background-color: ;
+  font-size: 48px;
+  font-style:italic;
+  padding: ;
+  border: ;
 
-  }
-  h2,h3,h4{
-    text-align: center;
-    font-size: 24px;
-    font-style: italic;
-  }
-  header {
-      background-color: #6495ED;
-      padding: 5px;
-      font-size: ;
-      display: block;
-      margin: 1px black;
-      width: 790px;
-  }
+}
+h2,h3,h4{
+  text-align: center;
+  font-size: 24px;
+  font-style: italic;
+}
+header {
+  background-color: #6495ED;
+  padding: 5px;
+  font-size: ;
+  display: block;
+  margin: 1px black;
+  width: 790px;
+}
 
 
-  p{
-    font-size: 16px;
-  }
-  fampic{
-    align: center;
-  }
+p{
+  font-size: 16px;
+}
+fampic{
+  align: center;
+}
 
-  .button{
-    margin: 3px 2px;
-    cursor: pointer;
-    text-align: center;
-    display: inline-block;
-    background-color: green;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-decoration: none;
-    font-size: 16px;
-  }
+.button{
+  margin: 3px 2px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 16px;
+}
