@@ -10,7 +10,7 @@ function myFunction(){
     alert('Welcome back ' + userName + '.  It\'s great to see you again!')
   }
 
-  var answerTwo = prompt('What state was I born in?');
+  /*var answerTwo = prompt('What state was I born in?');
   var myAnswerTwo = 'California';
   if(answerTwo === myAnswerTwo){
     //Comment do something
@@ -36,10 +36,10 @@ function myFunction(){
     alert ('It\'s Palisade in Seattle.  They have the best Warm Crab Lobster Dip and American Kobe Beef Sliders! I recommend visiting!')
   }
 
-  var answerFive = prompt("How fast do I drive on the I5 freeway?");
+  var answerFive = prompt('How fast do I drive on the I5 freeway?');
 
 
-  if (answerFive > 75) {
+  if (answerFive >= 75) {
     alert('I will get a ticket!');
   }else {
     alert('I will drive safe and have a safe trip!');
@@ -83,21 +83,44 @@ if (hobbies.indexOf(myHobby)!==-1) {
   else{
     alert('You\'ll never guess!');
   }
+*/
 
-
-  alert (userName +', you have 4 guesses between 1-10');
-  var answer = 4;
-  var answerNine = prompt ("Guess my number.");
-
-  for (i=0; i<3; i++){
-    if(answer ==answerNine){
-      alert ('You got it!');
-      break;
-    }else{
-
-      guess = prompt('Try again');
-    }
-    alert('Better luck next time');
-  }
-
+var score =0;
+var questions = [
+  ['What state was I born in?', 'California'],
+  ['I love sports!  Who do you think my favorite football team is ?', 'Seahawks'],
+  ['Where is my favorite restaurant to go to for happy hour?', 'Palisade'],
+  ['How fast do I drive on the I5 freeway?',75],['How long is my name?',8],
+  [' What is my favorite holiday?', 'Christmas'],['What kind of car do I drive?', 'Surburban'],['Name of a hobby of mine.', 'Genealogy']
+];
+for (var i=0; i<questions.length; i++){
+  askQuestion(questions[i]);
 }
+function askQuestion(question){
+var answer = prompt(question[0],'');
+if (answer == question[1]){
+  alert('You are awesome ' + userName + '!');
+  score++;
+}else{
+  alert('Oops. The answer is ' + question[1]);
+}
+}
+var message = 'You got ' + score;
+message += ' out of ' + questions.length;
+message += ' questions correct.';
+alert(message);
+}
+  // alert (userName +', you have 4 guesses between 1-10');
+  // var answer = 4;
+  // var answerNine = prompt ("Guess my number.");
+  //
+  // for (i=0; i<3; i++){
+  //   if(answer ==answerNine){
+  //     alert ('You got it!');
+  //     break;
+  //   }else{
+  //
+  //     guess = prompt('Try again');
+  //   }
+  //   alert('Better luck next time');
+  // }

@@ -1,21 +1,11 @@
-/*
-Selector {
-property: value;
-property: value;
-} */
-/* By class name*/
-.classOne{
-}
-/* By ID name*/
-.id{}
-}
-
 html {
   height: 100%;
-  background-color: lightblue;
+  background-color: ;
 }
 body {
   height: 100%;
+  background-color: #6495ED;
+
 }
 h1{
   text-align: center;
@@ -44,8 +34,12 @@ header {
 p{
   font-size: 16px;
 }
-fampic{
-  align: center;
+
+img{
+display: block;
+    margin: auto;
+
+
 }
 
 .button{
@@ -59,4 +53,7 @@ fampic{
   padding: 15px 32px;
   text-decoration: none;
   font-size: 16px;
+}
+footer{
+
 }
