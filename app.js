@@ -10,7 +10,7 @@ function myFunction(){
     alert('Welcome back ' + userName + '.  It\'s great to see you again!')
   }
 
-  /*var answerTwo = prompt('What state was I born in?');
+  var answerTwo = prompt('What state was I born in?');
   var myAnswerTwo = 'California';
   if(answerTwo === myAnswerTwo){
     //Comment do something
@@ -83,8 +83,8 @@ if (hobbies.indexOf(myHobby)!==-1) {
   else{
     alert('You\'ll never guess!');
   }
-*/
 
+/*This code below works, but I want the questions above to be the questions I use to check number of answers correct or incorrect.  */
 var score =0;
 var questions = [
   ['What state was I born in?', 'California'],
@@ -99,6 +99,7 @@ for (var i=0; i<questions.length; i++){
 function askQuestion(question){
 var answer = prompt(question[0],'');
 if (answer == question[1]){
+
   alert('You are awesome ' + userName + '!');
   score++;
 }else{
@@ -110,6 +111,7 @@ message += ' out of ' + questions.length;
 message += ' questions correct.';
 alert(message);
 }
+//This Guess Code does not work...still working on it, having a hard time to get it to work.
   // alert (userName +', you have 4 guesses between 1-10');
   // var answer = 4;
   // var answerNine = prompt ("Guess my number.");
