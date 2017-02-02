@@ -4,10 +4,12 @@ html {
 }
 body {
   height: 100%;
-  background-color: #6495ED;
-
+  background-color: ;
 }
-
+img{
+  display: block;
+  text-align: center;
+}
 h1{
   text-align: center;
   background-color: ;
@@ -15,7 +17,9 @@ h1{
   font-style:italic;
   padding: ;
   border: ;
-
+}
+h3{
+  padding: 30px;
 }
 h2,h3,h4{
   text-align: center;
@@ -23,47 +27,49 @@ h2,h3,h4{
   font-style: italic;
 }
 header {
+background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRXuq77__0v_gQHnuHF62GLnmLi1cTzgIinBBhteaALgmOMYkGI);
 
-  background-color: #6495ED;
+  color: black;
   padding: 5px;
   font-size: ;
   display: block;
   margin: 1px black;
-  width: 790px;
+  width: 100%;
 }
 nav ul li{
   display: block;
   list-style: none;
-}
-nav li{
-  display: block;
-  float: left;
-}
-ol {
-  padding: 40px;
+  padding: 8px;
 }
 a{
   padding: 8px 16px;
   color: black;
 }
+nav li{
+  display: block;
+  float: left;
+  padding; 8px 16px;
+  color: black;
+}
 .nav-lists{
   text-align: right;
   margin-right: 25px
+  padding; 8px 16px;
+  color: black;
 }
 .nav-list li{
   list-style: none;
   display: inline;
-  margin: 2px,4px
+  margin: 2px,4px;
   padding; 8px 16px;
+  color: black;
+}
+ol{
+  padding: 40px;
   color: black;
 }
 p{
   font-size: 16px;
-}
-
-img{
-display: block;
-    margin: auto;
 
 
 }
