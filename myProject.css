@@ -4,7 +4,8 @@ html {
 }
 body {
   height: 100%;
-  background-color: #c8c1ba
+  background-color: #6495ED;
+
 }
 
 h1{
@@ -14,10 +15,6 @@ h1{
   font-style:italic;
   padding: ;
   border: ;
-background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIUj72G06O43ZP7G3XN7p_kbt0C3u6-JOf4N5vjAm0ZAfVXnPWwQ);
-}
-h3{
-  padding: 30px;
 
 }
 h2,h3,h4{
@@ -26,46 +23,38 @@ h2,h3,h4{
   font-style: italic;
 }
 header {
-background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIUj72G06O43ZP7G3XN7p_kbt0C3u6-JOf4N5vjAm0ZAfVXnPWwQ);
+
+  background-color: #6495ED;
   padding: 5px;
   font-size: ;
   display: block;
   margin: 1px black;
-  width: 100%;
+  width: 790px;
 }
 nav ul li{
   display: block;
   list-style: none;
-  padding: 8px;
-}
-  element.style {
-    color: black;
-    padding: 8px 16px;
-
-
 }
 nav li{
   display: block;
   float: left;
-  padding; 8px 16px;
+}
+ol {
+  padding: 40px;
+}
+a{
+  padding: 8px 16px;
   color: black;
 }
 .nav-lists{
   text-align: right;
   margin-right: 25px
-  padding; 8px 16px;
-  color: black;
 }
 .nav-list li{
   list-style: none;
   display: inline;
-  margin: 2px,4px;
+  margin: 2px,4px
   padding; 8px 16px;
-  color: black;
-
-}
-a{
-  padding: 8px 16px;
   color: black;
 }
 p{
@@ -75,31 +64,27 @@ p{
 img{
 display: block;
     margin: auto;
-    padding: 8px 12px 24px 12px;
 
 
 }
 
 .button{
-  margin:0 auto;
+  margin: 3px 2px;
   cursor: pointer;
   text-align: center;
   display: inline-block;
-  background-color: #89aab5;
+  background-color: green;
   border: none;
-  color: whitesmoke;
+  color: white;
   padding: 15px 32px;
   text-decoration: none;
   font-size: 16px;
 }
 footer{
-  text-align: center;
 
 }
 /* Change the link color on hover */
 li a:hover {
     background-color: #555;
     color: white;
-    padding; 8px 16px;
-    color: black;
 }
