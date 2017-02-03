@@ -36,10 +36,14 @@ background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRXuq
   margin: 1px black;
   width: 100%;
 }
+
 nav ul li{
   display: block;
   list-style: none;
   padding: 8px;
+}
+.fampic{
+  align:center;
 }
 a{
   padding: 8px 16px;
@@ -70,10 +74,16 @@ ol{
 }
 p{
   font-size: 16px;
+}
+div img{
+  text-align: center;
 
 
 }
-
+.fampic{
+  width: 50%;
+  margin-left: 300px;
+}
 .button{
   margin: 3px 2px;
   cursor: pointer;

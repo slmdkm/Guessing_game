@@ -4,11 +4,12 @@ html {
 }
 body {
   height: 100%;
-  background-color: #6495ED;
+  background-color: darkgrey;
 
 }
 
 h1{
+  color: white;
   text-align: center;
   background-color: ;
   font-size: 48px;
@@ -23,13 +24,13 @@ h2,h3,h4{
   font-style: italic;
 }
 header {
-
+  background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRVP_P0_O8Xn5NCophkT9tdc-uhDheghey0kRToM8lHckrV3iFuVg);
   background-color: #6495ED;
   padding: 5px;
   font-size: ;
   display: block;
   margin: 1px black;
-  width: 790px;
+  width: 100%;
 }
 nav ul li{
   display: block;
@@ -44,7 +45,7 @@ ol {
 }
 a{
   padding: 8px 16px;
-  color: black;
+  color: white;
 }
 .nav-lists{
   text-align: right;
@@ -62,8 +63,8 @@ p{
 }
 
 img{
-display: block;
-    margin: auto;
+  display: block;
+  margin: auto;
 
 
 }
@@ -85,6 +86,6 @@ footer{
 }
 /* Change the link color on hover */
 li a:hover {
-    background-color: #555;
-    color: white;
+  background-color: #555;
+  color: white;
 }
