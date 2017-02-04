@@ -25,6 +25,7 @@ function myFunction(){
 
 
 //Question Two
+function secondQuestion(){
   var answerTwo = prompt('What state was I born in?');
   answerTwo = answerTwo.toUpperCase();
   var myAnswerTwo = 'CALIFORNIA';
@@ -36,6 +37,8 @@ function myFunction(){
     //do something else
     alert('Sorry ' + userName + ', that\'s wrong. I was born in California.');
   }
+}
+secondQuestion();
 
 
 //Question Three
