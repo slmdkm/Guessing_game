@@ -9,7 +9,7 @@ body {
 }
 div{
   display: block;
-background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaGLFfV0LEAUQu5EXojmVBdxPI9M1D5t3ekYSa4tnc2HmtqpNs6w);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaGLFfV0LEAUQu5EXojmVBdxPI9M1D5t3ekYSa4tnc2HmtqpNs6w);
 
 }
 
@@ -95,6 +95,6 @@ div img{
 
 /* Change the link color on hover */
 li a:hover {
-    background-color: #555;
-    color: white;
+  background-color: #555;
+  color: white;
 }
