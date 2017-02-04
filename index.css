@@ -66,16 +66,17 @@ nav li{
 }
 a{
   padding: 8px 16px;
-  color: black;
+  color: white;
+  font: 24px;
 }
 p{
-  font-size: 16px;
+  font-size: 20px;
 }
 
 img{
 display: block;
     margin: auto;
-    padding: 8px 12px 24px 12px;
+
 
 
 }
@@ -102,4 +103,12 @@ li a:hover {
     color: white;
     padding; 8px 16px;
     color: black;
+}
+#footer{
+  position: auto;
+  height: 50px;
+  background-color:black;
+  text-align: center;
+
+
 }

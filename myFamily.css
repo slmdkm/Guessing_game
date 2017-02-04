@@ -1,11 +1,18 @@
 html {
   height: 100%;
-  background-color: ;
+  background-image:  https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRN0syuIuRql1ud8HxMhJ-t3UZeuxaizW7fV4FxRPQTVtoAwNU8;
 }
+
 body {
   height: 100%;
-  background-color: ;
+  background-color:#5f66a0 ;
 }
+div{
+  display: block;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaGLFfV0LEAUQu5EXojmVBdxPI9M1D5t3ekYSa4tnc2HmtqpNs6w);
+
+}
+
 img{
   display: block;
   text-align: center;
@@ -17,6 +24,7 @@ h1{
   font-style:italic;
   padding: ;
   border: ;
+
 }
 h3{
   padding: 30px;
@@ -27,7 +35,7 @@ h2,h3,h4{
   font-style: italic;
 }
 header {
-background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRXuq77__0v_gQHnuHF62GLnmLi1cTzgIinBBhteaALgmOMYkGI);
+
 
   color: black;
   padding: 5px;
@@ -35,11 +43,16 @@ background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRXuq
   display: block;
   margin: 1px black;
   width: 100%;
+
 }
+
 nav ul li{
   display: block;
   list-style: none;
   padding: 8px;
+}
+.fampic{
+  align:center;
 }
 a{
   padding: 8px 16px;
@@ -68,29 +81,20 @@ ol{
   padding: 40px;
   color: black;
 }
+
 p{
   font-size: 16px;
-
-
 }
-
-.button{
-  margin: 3px 2px;
-  cursor: pointer;
+div img{
   text-align: center;
-  display: inline-block;
-  background-color: green;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-decoration: none;
-  font-size: 16px;
 }
-footer{
+.fampic{
+  width: 50%;
+  margin-left: 300px;
+}
 
-}
 /* Change the link color on hover */
 li a:hover {
-    background-color: #555;
-    color: white;
+  background-color: #555;
+  color: white;
 }
