@@ -4,6 +4,8 @@ function myFunction(){
   alert('Hello ' + userName + '. Thanks for coming to my site!')
 
 //Question One
+//Wrapping Function for Question 1
+function questionOne(){
   var questionOne = prompt ('So ' + userName +'. Are you new to CodeFellows?');
   questionOne = questionOne.toUpperCase();
   var myQuestionOne = 'YES';
@@ -12,6 +14,8 @@ function myFunction(){
   }else{
     alert('Welcome back ' + userName + '.  It\'s great to see you again!')
   }
+}
+questionOne();
 
   var answerTwo;
   var answerThree;
@@ -25,6 +29,8 @@ function myFunction(){
 
 
 //Question Two
+//Wrapping Function for Question 2
+function answerTwo(){
   var answerTwo = prompt('What state was I born in?');
   answerTwo = answerTwo.toUpperCase();
   var myAnswerTwo = 'CALIFORNIA';
@@ -36,9 +42,13 @@ function myFunction(){
     //do something else
     alert('Sorry ' + userName + ', that\'s wrong. I was born in California.');
   }
+}
+answerTwo();
 
 
 //Question Three
+//Wrapping Function for Question 3
+function answerThree(){
   var answerThree = prompt ('I love sports!  Who do you think my favorite football team is ?');
   answerThree = answerThree.toUpperCase();
   var myAnswerThree = 'SEAHAWKS';
@@ -48,9 +58,12 @@ function myFunction(){
   }else {
     alert ('Nope! It\'s the Seahawks! But don\'t tell my husband!' );
   }
-
+}
+answerThree();
 
 //Question Four
+//Wrapping Function for Question 4
+function answerFour(){
   var answerFour = prompt ('Where is my favorite restaurant to go to for happy hour?');
   answerFour = answerFour.toUpperCase();
   var myAnswerFour = 'PALISADE';
@@ -60,9 +73,12 @@ function myFunction(){
   }else {
     alert ('It\'s Palisade in Seattle.  They have the best Warm Crab Lobster Dip and American Kobe Beef Sliders! I recommend visiting!');
   }
-
+}
+answerFour();
 
 //Question Five - Logical Operator
+//Wrapping Function for Question 5
+function answerFive(){
    var answerFive = prompt('How fast do I drive on the I5 freeway?');
 
   if (parseInt(answerFive) === 75) {
@@ -75,9 +91,13 @@ function myFunction(){
   else {
     alert('What do think I am a slowpoke?');
   }
-
+}
+answerFive();
 
 //Question Six
+//Wrapping Function for Question 6
+function answerSix(){
+
   var answerSix = prompt ('How long is my name?');
 
   if ((parseInt(answerSix) * 2 / (2+2) == 4))
@@ -88,9 +108,13 @@ function myFunction(){
   else
   {   alert('Nope, you got it wrong!');
 }
+}
+answerSix();
 
 
 //Question Seven - Array
+//Wrapping Function for Question 7
+function answerSevenArray(){
 var answerSevenArray = prompt (' What is my favorite holiday?');
 answerSevenArray = answerSevenArray.toUpperCase();
 var myArray = ['CHRISTMAS', 'EASTER', 'CINCO DE MAYO', 'MOTHERS DAY', '4th OF JULY'];
@@ -109,9 +133,13 @@ if (answerSevenArray === myArray[0]){
 }else {
   alert ('No such luck!' );
 }
+}
+answerSevenArray();
 
 
 //Question Eight - Array
+//Wrapping Function for Question 8
+function myCarArray(){
 var myCarArray =['SURBURBAN', 'COROLLA', 'JETTA'];
 
 var answerEightArray = prompt ('What kind of car do I drive?');
@@ -147,6 +175,10 @@ for (var i = 0; i<=3; i++){
     alert('Too low!');
   }
 }
+}
+answerEightArray();
+
+
 //Score Calculation
 if (score === 9){
   alert ('Your Score is ' +score + '. You are awesome, you did perfect!');
